@@ -21,5 +21,13 @@ public class Driver {
 		System.out.println("What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?");
 		System.out.println(new Problem5(20));
 		System.out.println();
+		
+		System.out.println("Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.");
+		System.out.println(new Problem6(100));
+		System.out.println();
+		
+		System.out.println("What is the 10 001st prime number?");
+		System.out.println(new Problem7(10001));
+		System.out.println();
 	}
 }
